@@ -1,3 +1,11 @@
+Pre-requisites:
+* NSX-T Manager deployed
+* NSX-T Edge Cluster deployed
+* Transport Zones created
+
+on fait `terraform init`
+
+-------- Old stuff -----------
 == Deploying an standalone NSX-T network for future manual opsman OVA deploys ==
 
 1. Provision a T0 router for your environment. At the moment, we do not support multiple environments on one T0 router as their NAT rules will conflict.
